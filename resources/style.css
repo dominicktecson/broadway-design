@@ -23,10 +23,26 @@ p {
 }
 
 .hero {
-  background-image: url("resources\images\the-flatiron-building.png");
+  background-image: url("images/the-flatiron-building.png");
+  background-size: cover;
   color: white;
 }
 
-#footer-copy p{
+.nav-btns a {
+  font-size: 18px;
+  color: white;
+}
+
+#footer-copy p {
   font-size: 11px;
+  color: white;
+}
+
+.footer {
+  text-align: left;
+  background-color: dimgray;
+}
+
+.footer p {
+  display: inline;
 }
